@@ -1,0 +1,76 @@
+li {
+    list-style-type: none; 
+   }
+li:before {
+ color: #d7002e; 
+ content: "Я_уникальный_маркер :D";
+ padding-right: 7px;
+}
+body { 
+    background-image: url(ArcheAge_sample.jpg);
+    background-position: right 0%;
+    background-repeat:no-repeat;
+    background-size: 400px 300px;
+}
+
+section {
+    display: flex;
+  }
+
+.container-1 div{
+    padding:15px;
+    border: solid silver 2px;
+    background-color: royalblue;
+    align-items: flex-start;
+}
+.container-1{
+    display: flex;
+    margin: 150px 0px;
+}
+
+.container-2 div{
+    padding:15px;
+    border: solid silver 2px;
+    background-color: royalblue;
+}
+.container-2{
+    display: flex;
+    margin: -100px 0px;
+}
+.box-1{
+    flex-basis: 10%;
+    margin: 5px;
+    height: 80px;
+
+}
+.box-2{
+    flex-basis: 10%;
+    margin: 5px;
+    height: 160px;
+    
+}
+.box-3{
+    flex-basis: 10%;
+    margin: 5px; 
+    height: 80px;  
+}
+.box-4{
+    flex-basis: 10%;
+    margin: 5px;
+    
+}
+.box-5{
+    flex-basis: 10%;
+    margin: 5px;
+    
+}
+.box-6{
+    flex-basis: 10%;
+    margin: 5px;
+    
+}
+.Privet{
+    font-size: 19px;
+    font-style: italic;
+}
+    
